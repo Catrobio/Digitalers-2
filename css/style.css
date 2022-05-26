@@ -1,0 +1,15 @@
+.separador{
+    background-color: gray;
+    width: 200px;
+    border: 10px solid green;
+    padding: 12px 15px 10px 25px;
+    margin: 10px 50px 2px 60px;
+}
+
+.separador-2{
+    background-color: gray;
+    width: 200px;
+    border: 10px solid green;
+    padding: 12px 15px 10px 25px;
+    margin: 0px 50px 25px 60px;
+}
