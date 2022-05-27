@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digitaler - 2 - Formulario </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form method="post" action="servicio.html">
+        <div>
+            <label for="email">Email:</label> <input required name="email" type="email">
+        </div>
+        <div>
+            <label for="fechanac">fecha de nacimiento:</label> <input required name="fechanac" type="date">
+        </div>
+        <div>            
+            <label for="contrasena">Contrasea:</label> <input required name="contrasena" type="password">
+        </div>
+        <div>
+            <label for="calle">Calle:</label> <input required name="calle" type="text">
+        </div>
+        <div>
+            <label for="altura">Altura:</label> <input required name="altura" type="number">
+        </div>
+        <div>
+            <label for="telefono">Telefono:</label> <input required name="telefono" type="text">            
+        </div>
+        <div>
+            <label for="telefono">Cuenta principal:</label> <input required name="cuenta" type="radio">            
+            <br>
+            <label for="telefono">Secundaria:</label> <input required name="cuenta" type="radio">            
+        </div>
+        <div>
+            <input required name="terminos" title="Debes aceptar los terminos" type="checkbox"> <label for="terminos">Aceptar Terminos:</label>
+        </div>
+        <button type="submit">Enviar</button> <button type="reset" >cancelar</button>
+    </form>
+</body>
+</html>

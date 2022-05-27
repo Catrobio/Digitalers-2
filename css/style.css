@@ -13,3 +13,8 @@
     padding: 12px 15px 10px 25px;
     margin: 0px 50px 25px 60px;
 }
+
+label{
+   display: inline-block;
+   width: 120px;
+}
